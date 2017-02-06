@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "ds-auth": "0.6.0",
     "indexed-enumerable-set-lib": "1.0.0",
     "sem-version-lib": ">=1.1.0"
   }

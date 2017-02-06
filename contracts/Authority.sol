@@ -1,5 +1,9 @@
 pragma solidity ^0.4.0;
 
+import {DSAuthEvents as AuthEvents} from "ds-auth/contracts/DSAuthEvents.sol";
+import {DSAuthority as Authority} from "ds-auth/contracts/DSAuthEvents.sol";
+import {DSAuth as Auth} from "ds-auth/contracts/DSAuthEvents.sol";
+
 
 contract Authority {
     function canCall(address callerAddress,
